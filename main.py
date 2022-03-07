@@ -14,8 +14,7 @@ list_of_messages = ["Always believe that something wonderful will probably never
                    "You\'re only as good as your last fuck-up.",
                    "Going outside is highly overrated"]
 list_of_time_options = [1800,
-                        3600, 
-                        7200]
+                        3600]
 
 def choose_message(lst_msg):
   random_msg = random.choice(lst_msg)
