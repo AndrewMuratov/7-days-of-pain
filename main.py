@@ -35,4 +35,4 @@ for i in range(len(list_of_messages)):
   message = 'Subject: {}\n\n{}'.format(f"Day {i + 1}", f'{choose_message(list_of_messages)}')
   server.sendmail(sender_email, reciever_email, message)
   print(f"{i + 1} emails sent!")
-  time.sleep(random.choice(list_of_time_options))
+  time.sleep(86400)
