@@ -31,7 +31,7 @@ server.starttls()
 
 server.login(sender_email, sender_password)
 
-for i in range(len(list_of_messages)):
+for i in range(7):
   message = 'Subject: {}\n\n{}'.format(f"Day {i + 1}", f'{choose_message(list_of_messages)}')
   server.sendmail(sender_email, reciever_email, message)
   print(f"{i + 1} emails sent!")
